@@ -15,9 +15,9 @@ let options =
     // Pass your temp token here.
     token: '007eJxTYNDcviJsgat+6Ik/J3fXpP3/d249g5bAV7WzDauE5q1l//JagcHSxCTJKDHVMM08Jc0k0TTZwswwzcA01dQiNS3NwNzAUlQkI6UhkJGBZ/trZkYGCATx+RnCU5My8xKLFEJSi0sy89IZGABarSTb',
     // Set the user ID.
-    uid: 112243,
+    uid: Math.floor(Math.random() * 353533),
     // Set the user role
-    role: ''
+    role: Math.floor(Math.random() * 2).toString()
 };
 
 let channelParameters =
